@@ -1,0 +1,40 @@
+name: Latest releases
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/latest-releases.yml"
+      - "scripts/latest_releases.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latest-releases-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Rewrite releases block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASES_EXCLUDE: docx-anonymizer
+        run: python3 scripts/latest_releases.py README.md
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update latest releases"
+          git push
