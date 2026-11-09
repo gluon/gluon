@@ -10,6 +10,12 @@ I build generative audiovisual systems, and the tools that wire audio and image 
 - **Teaching**: Ableton Certified Trainer and Max Certified Trainer, training and consulting through [Structure Void](https://structure-void.com).
 - **Books**: [The Art of Max for Live](https://leanpub.com/max-for-live-en) (Structure Void, 2025, EN/FR), *C Programming for Arduino* (Packt).
 
+## Code written
+
+Lines I wrote, per language, across my GitHub repositories and the PRISM GitLab: every line is attributed with `git blame`, third-party code is excluded. Refreshed nightly.
+
+<img src="https://gitstats.structure-void.com/public/loc.svg" alt="Lines written per language, refreshed nightly">
+
 ## Tools
 
 | Ecosystem | Projects |
