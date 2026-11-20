@@ -23,6 +23,7 @@ Lines I wrote, per language, across my GitHub repositories and the PRISM GitLab:
 | **Ableton Link Audio** | [Void-LinkAudio](https://github.com/gluon/Void-LinkAudio), Link Audio across Max, TouchDesigner, VCV Rack, openFrameworks and Live 12.4+<br>[ofxAbletonLinkAudio](https://github.com/gluon/ofxAbletonLinkAudio), openFrameworks addon |
 | **Max** | [void-max](https://github.com/gluon/void-max), Max/MSP/Jitter externals<br>[void.sharedMemory](https://github.com/gluon/void.sharedMemory), shared memory contract across environments<br>[Max Objects Network](https://structure-void.com/max-objects-network/), interactive 3D graph of the Max ecosystem |
 | **Ableton Live** | [AbletonLive12_MIDIRemoteScripts](https://github.com/gluon/AbletonLive12_MIDIRemoteScripts), Live 12 MIDI Remote Scripts |
+| **OSCQuery** | [OSCQuery Inspector](https://github.com/gluon/oscq-inspector), OSCQuery browser, editor and live peers map, for macOS, Windows and Linux |
 
 ## Latest releases
 
