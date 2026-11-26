@@ -30,7 +30,7 @@ Lines I wrote, per language, across my GitHub repositories and the PRISM GitLab:
 <!-- releases:start -->
 | Project | Release | Date |
 |---|---|---|
-| [oscq-inspector](https://github.com/gluon/oscq-inspector) | [v0.6.0](https://github.com/gluon/oscq-inspector/releases/tag/v0.6.0) | 2026-11-23 |
+| [oscq-inspector](https://github.com/gluon/oscq-inspector) | [v0.7.0](https://github.com/gluon/oscq-inspector/releases/tag/v0.7.0) | 2026-11-25 |
 | [Void-LinkAudio](https://github.com/gluon/Void-LinkAudio) | [v0.3.0](https://github.com/gluon/Void-LinkAudio/releases/tag/v0.3.0) | 2026-05-15 |
 | [bob-for-max](https://github.com/gluon/bob-for-max) | [v1.0.1](https://github.com/gluon/bob-for-max/releases/tag/v1.0.1) | 2026-03-14 |
 | [void.sharedMemory](https://github.com/gluon/void.sharedMemory) | [v2.0.0](https://github.com/gluon/void.sharedMemory/releases/tag/v2.0.0) | 2026-02-13 |
